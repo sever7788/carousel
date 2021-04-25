@@ -1,0 +1,10 @@
+.gallery-slide{
+    min-height: 1px;
+    float: left;
+    transform: translateZ(0);
+    overflow: hidden;
+}
+.slide img {
+    width: 100%;
+    pointer-events: none;
+}

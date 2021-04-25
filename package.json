@@ -1,0 +1,39 @@
+{
+  "name": "react-carousel",
+  "version": "1.0.0",
+  "homepage": "https://sever7788.github.io/carousel-deploy",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "start": "webpack",
+    "predeploy": "webpack",
+    "deploy": "gh-pages"
+  },
+  "author": "ivan_severinec",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@webpack-cli/init": "^1.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
+}

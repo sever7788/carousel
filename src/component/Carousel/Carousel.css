@@ -1,0 +1,35 @@
+.container {
+    padding: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.gallery{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -webkit-user-select: none;
+}
+.gallery-line-container {
+        overflow: hidden;
+    }
+.gallery-draggable{
+    cursor: grabbing;
+}
+
+.gallery-line{
+    overflow: hidden;
+}
+    
+    .gallery-nav{
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0 0;
+    }
+    
+    .gallery-nav button{
+        margin: 0.5rem;
+        cursor: pointer;
+    }

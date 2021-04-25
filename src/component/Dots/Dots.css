@@ -1,0 +1,23 @@
+.gallery-dots{
+    display:flex;
+    justify-content: center;
+    
+    }
+    
+    .gallery-dot{
+        width:10px;
+        height:10px;
+        border-radius:50%;
+        background: #ccc;
+        margin:0.4rem;
+        cursor:pointer;
+        transition:all 0.3s;
+        border: none;
+        outline: none;
+        padding: 0;
+    }
+    
+    .gallery-dot:hover,
+    .gallery-dot-active{
+        background: #888;
+    }
