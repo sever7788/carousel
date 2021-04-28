@@ -1,10 +1,10 @@
-.gallery-slide{
+.carousel-slide{
     min-height: 1px;
     float: left;
     transform: translateZ(0);
     overflow: hidden;
 }
-.slide img {
+.slide :last-child{
     width: 100%;
     pointer-events: none;
 }

@@ -6,30 +6,31 @@
 
 
 
-.gallery{
+.carousel{
     position: relative;
     width: 100%;
     overflow: hidden;
     -webkit-user-select: none;
 }
-.gallery-line-container {
+.carousel-line-container {
         overflow: hidden;
     }
-.gallery-draggable{
+.carousel-draggable{
     cursor: grabbing;
 }
 
-.gallery-line{
+.carousel-line{
     overflow: hidden;
 }
     
-    .gallery-nav{
+    .carousel-nav{
         display: flex;
         justify-content: center;
         padding: 1rem 0 0;
     }
     
-    .gallery-nav button{
+    .carousel-nav button{
         margin: 0.5rem;
         cursor: pointer;
     }
+    

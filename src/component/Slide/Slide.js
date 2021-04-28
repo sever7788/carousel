@@ -3,9 +3,9 @@ import "./Slide.css";
 
 const Slide = (props) => {
     return (
-        <div className="gallery-slide">
+        <div className="carousel-slide">
             <div className="slide">
-                <img src={props.src} alt="Вечерняя природа" />
+                {props.u}
             </div>
         </div>
     );

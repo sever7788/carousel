@@ -1,10 +1,10 @@
-.gallery-dots{
+.carousel-dots{
     display:flex;
     justify-content: center;
     
     }
     
-    .gallery-dot{
+    .carousel-dot{
         width:10px;
         height:10px;
         border-radius:50%;
@@ -17,7 +17,7 @@
         padding: 0;
     }
     
-    .gallery-dot:hover,
-    .gallery-dot-active{
+    .carousel-dot:hover,
+    .carousel-dot-active{
         background: #888;
     }
